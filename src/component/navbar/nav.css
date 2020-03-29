@@ -20,6 +20,12 @@
        color: white;
     }
     
+    .wrapper .navbar-nav .nav-item{
+        color: white;
+        text-transform: uppercase;
+    }
+
+  
     .nav-link{
         text-transform: uppercase;
         margin-right: 10px;
@@ -36,4 +42,12 @@
     padding-bottom: 5px;
     margin-bottom:-7px ;
 }    
- }
+}
+
+@media (max-width: 575.98px){
+.navbar-nav .nav-item{
+    /* color: grey; */
+    text-transform: uppercase;
+}
+
+}

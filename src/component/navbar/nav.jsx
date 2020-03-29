@@ -11,10 +11,10 @@ export default function Nav() {
   </button>
   <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div className="navbar-nav ml-auto bar">
-      <a className="nav-item nav-link text-white" href="#">Home <span className="sr-only">(current)</span></a>
-      <a className="nav-item nav-link text-light" href="#">Features</a>
-      <a className="nav-item nav-link text-light" href="#">Pricing</a>
-      <a className="nav-item nav-link text-light" href="#">About</a>
+      <a className="nav-item nav-link " href="#">Home <span className="sr-only">(current)</span></a>
+      <a className="nav-item nav-link " href="#">Features</a>
+      <a className="nav-item nav-link " href="#">Pricing</a>
+      <a className="nav-item nav-link " href="#">About</a>
       <a className="nav-item btn btn-dark button text-white" href="#">Join Us</a>
     </div>
   </div>
