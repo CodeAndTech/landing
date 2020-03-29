@@ -1,5 +1,5 @@
 import React from 'react';
-import './nav.css'
+import '../style/style.css'
 export default function Nav() {
     return (
         <div className="wrapper">

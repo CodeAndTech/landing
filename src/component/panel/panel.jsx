@@ -1,5 +1,5 @@
 import React from 'react';
-import './panel.css'
+import '../style/style.css'
 import Icon1 from '../../aset/layers.png'
 import Icon2 from '../../aset/web-programming.png'
 import Icon3 from '../../aset/shield.png'

@@ -1,6 +1,6 @@
 import React from 'react'
 import Prof from '../../aset/profesional.jpg'
-import './space.css'
+import '../style/style.css'
 export default function Space(props) {
     return (
         <div className="container">

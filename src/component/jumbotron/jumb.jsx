@@ -1,5 +1,5 @@
 import React from 'react';
-import './jumb.css'
+import '../style/style.css'
 
 export default function Jumbotron(props) {
     return(
