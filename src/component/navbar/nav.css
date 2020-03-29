@@ -1,0 +1,39 @@
+.navbar{
+    position: relative;
+    z-index: 1;
+    
+}
+
+.navbar-brand{
+    font-family: 'Viga', sans-serif;
+
+}
+
+.button{
+    text-transform: uppercase;
+    border-radius: 50px;
+}
+
+/* Desktop Version */
+@media (min-width: 1200px) { 
+    .container .colorNav{
+       color: white;
+    }
+    
+    .nav-link{
+        text-transform: uppercase;
+        margin-right: 10px;
+        color: white;
+    }
+
+  
+.nav-link:hover::after{
+    content: '';
+    display: block;
+    border-bottom: 2px solid snow;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom:-7px ;
+}    
+ }

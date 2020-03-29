@@ -2,19 +2,20 @@ import React from 'react';
 import './nav.css'
 export default function Nav() {
     return (
-        <div>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div className="wrapper">
+            <nav className="navbar navbar-expand-lg navbar-light">
                 <div className="container">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+  <a className="navbar-brand colorNav" href="#">CodeAndTech</a>
+  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span className="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav ml-auto">
-      <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link" href="#">Features</a>
-      <a class="nav-item nav-link" href="#">Pricing</a>
-      <a class="nav-item nav-link" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+  <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div className="navbar-nav ml-auto bar">
+      <a className="nav-item nav-link text-white" href="#">Home <span className="sr-only">(current)</span></a>
+      <a className="nav-item nav-link text-light" href="#">Features</a>
+      <a className="nav-item nav-link text-light" href="#">Pricing</a>
+      <a className="nav-item nav-link text-light" href="#">About</a>
+      <a className="nav-item btn btn-dark button text-white" href="#">Join Us</a>
     </div>
   </div>
   </div>
