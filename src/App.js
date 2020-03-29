@@ -7,7 +7,7 @@ import Space from './component/Space/space'
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Nav />
       <Jumb />
       <Panel />

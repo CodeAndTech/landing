@@ -24,8 +24,14 @@
         color: white;
         text-transform: uppercase;
     }
+    .wrapper .navbar-nav .nav-item:hover{
+        color: grey;
+        text-transform: uppercase;
+    }
 
-  
+  .container .colorNav:hover{
+      color: grey;
+  }
     .nav-link{
         text-transform: uppercase;
         margin-right: 10px;
