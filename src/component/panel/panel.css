@@ -1,0 +1,34 @@
+.info-panel{
+    background-color:white;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    margin-top: -70px;
+}
+
+img{
+    padding: 7px;
+    width: 100px;
+    height: 100px;
+}
+
+.info-panel h4{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.info-panel p{
+    font-size: 14px;
+    color: #acacac;
+}
+
+@media (max-width: 575.98px) { 
+    .info-panel img{
+        margin-left: 40%;
+    }
+    .info-panel .desc{
+        text-align: center;
+        margin-left: 4%;
+    }
+ }
