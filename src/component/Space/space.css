@@ -1,4 +1,31 @@
-.container img{
-    margin-top: 120px;
-   border-radius: 10px;
+.container .space img{
+    margin-top: 120px; 
 }
+.container .space img{
+    border-radius: 10px;
+}
+
+.container .space h3{
+    margin-top: 120px; 
+    font-size: 52px;
+}
+
+.container .space p{
+   color: #acacac;
+   margin: 30px 0;
+}
+
+
+
+@media (max-width: 575.98px) { 
+    .container .space img{
+        margin-top: 0px;
+       border-radius: 10px;
+       
+    }
+
+    .container .space h3{
+       margin-top: 0; 
+        font-size: 52px;
+    }
+ }
