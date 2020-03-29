@@ -6,9 +6,9 @@ import Icon3 from '../../aset/shield.png'
 
 export default function panel(props) {
     return (
-        <div>
+        <div className="container">
             <div className="row justify-content-center">
-                <div className="col-lg-8 info-panel">
+                <div className="col-lg-10 info-panel">
                     <div className="row text-left">
                         <div className="col-lg">
                             <div className="row">

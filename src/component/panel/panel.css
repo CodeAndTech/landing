@@ -5,7 +5,8 @@
     margin-top: -70px;
 }
 
-img{
+.col-lg-4 img{
+    margin-top: 10px;
     padding: 7px;
     width: 100px;
     height: 100px;
