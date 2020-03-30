@@ -1,3 +1,7 @@
+/* *{
+    border:1px solid black
+} */
+
 /* Stye Navbar */
 .navbar{
     position: relative;
@@ -240,5 +244,22 @@ figure p{
     font-size: 12px;
     color: #acacac;
     margin-top: -10px;
+}
+.container .row-card .img-card .img-card-wrapper{
+   flex: 1;
+}
+
+.container .row-card .img-card{
+    position: relative;
+    margin: 0 auto;
+}
+.container .row-card .img-card::after{
+content: '';
+position: absolute;
+display: block;
+width: 100px;
+height: 100px;
+border: 1px solid black;
+
 }
 /* Akhir Style Card */

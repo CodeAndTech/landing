@@ -2,18 +2,21 @@ import React, { Component } from 'react'
 import '../style/style.css'
 
 
-export default class Card extends Component {
-    render() {
+ const Card =({property}) =>{
+    const{id,index,quote,nama,profesi,picture}=property
         return (
+           
             <div>
-                <figure class="figure">
-                    <img src={this.props.src} class="figure-img img-fluid" alt="..." />
-                    <figcaption class="figure-caption text-center">
-                        <h5>{this.props.h5}</h5>
-                        <p>{this.props.p}</p>
+                <figure className={`figure-${index}`} id={index}>
+                    <img src={picture}className="figure-img img-fluid" alt="..." />
+                    <figcaption className="figure-caption text-center">
+                        <h5>{nama}</h5>
+                        <p>{profesi}</p>
                     </figcaption>
                 </figure>
             </div>
         )
-    }
+    
 }
+
+export default Card
