@@ -38,16 +38,10 @@ export default class Quote extends Component {
                     </div>
                 </div>
                 <div className="row justify-content-center row-card">
-                    <div className="col-lg-6 d-flex justify-content-left img-card">
+                    <div className="col-lg-6 d-flex justify-content-center img-card">
                         <div className="row img-card-wrapper">
-                            <div className="item d-flex" style={{
-                                'transform':`translateX(-${this.state.property.index*(100/this.state.properties.length)}%)`
-                            }}> 
-                            {
-                                this.state.properties.map(property => <Card key={property.id} property={property} />)
-                            }
-</div>
-                           
+                        <Card key={this.state.property.id} property={this.state.property} />
+
                         </div>
                     </div>
                 </div>
